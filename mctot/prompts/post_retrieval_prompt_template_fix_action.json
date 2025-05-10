@@ -1,0 +1,26 @@
+[
+    {
+        "QUERY": "Who lived longer, Theodor Haecker or Harry Vaughan Watkins?",
+        "REPHRASED_QUERY": "Who had a longer lifespan, Theodor Haecker or Harry Vaughan Watkins?",
+        "Subquestions_1": "When did Theodor Haecker die? Theodor Haecker was 65 years old when he died.",
+        "Subquestions_2": "When did  Harry Vaughan Watkins die? Harry Vaughan Watkins was 69 years old when he died.",
+        "DOCUMENT": "<doc>In what year was Stephen Hawking born? 1942</doc> <doc>What is the birthdate of Ethan Hawke? November 6, 1970</doc> <doc>In what year was Ethan Hawke born? 1970</doc>",
+        "ANSWER": "Harry Vaughan Watkins"
+    },
+    {
+        "QUERY": "Why did the founder of Versus die?",
+        "REPHRASED_QUERY": "What caused the founder of Versus to pass away?",
+        "Subquestions_1": "Who is the funder of Versus?  The founder of Versus was Gianni Versace.",
+        "Subquestions_2": "Why did Gianni Versace die? Gianni Versace was shot and killed on the steps of his Miami Beach mansion on July 15, 1997.",
+        "DOCUMENT": "<doc>What is the birthdate of Avicii? September 8, 1989</doc> <doc>In what year was Avicii born? 1989</doc> <doc>What is the birthplace (country only) of Leonardo da Vinci? Italy</doc>",
+        "ANSWER": "Shot"
+    },
+    {
+        "QUERY": "What is the capital of the birthplace of Edin Dzeko?",
+        "REPHRASED_QUERY": "What is the main city of the place where Edin Dzeko was born?",
+        "Subquestions_1": "Where was Edin Dzeko born? Edin Dzeko was born in Bosnia and Herzegovina.",
+        "Subquestions_2": "What is the capital of Bosnia and Herzegovina? Sarajevo",
+        "DOCUMENT": "<doc>What is the birthplace (country only) of Edin Dzeko? Bosnia And Herzegovina</doc> <doc>What is the capital of Bosnia and Herzegovina? Sarajevo</doc>",
+        "ANSWER": "Sarajevo"
+    }
+]

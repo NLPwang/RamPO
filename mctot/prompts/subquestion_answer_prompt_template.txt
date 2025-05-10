@@ -1,0 +1,21 @@
+Answer the Subquestions mentioned abolve, and the answers is enclosed within <Subquestions_Anwser> </Subquestions_Anwser> tags. ：
+
+<Subquestions>
+1.When did Theodor Haecker die?
+2.When did  Harry Vaughan Watkins die?
+</Subquestions>
+
+<Subquestions_Anwser>
+1.Theodor Haecker was 65 years old when he died.
+2.Harry Vaughan Watkins was 69 years old when he died.
+</Subquestions_Anwser>
+
+<Subquestions>
+1.Who is the funder of Versus?
+2.Why did Gianni Versace die?
+</Subquestions>
+
+<Subquestions_Anwser>
+1.The founder of Versus was Gianni Versace.
+2.Gianni Versace was shot and killed on the steps of his Miami Beach mansion on July 15, 1997.
+</Subquestions_Anwser>

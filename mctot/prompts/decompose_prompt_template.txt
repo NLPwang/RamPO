@@ -1,0 +1,20 @@
+Given an input question, decompose it into up to 3 smaller and indivisible sub-questions. The original question will be enclosed in <Original Question> and </Original Question>. Corresponding sub-questions should be enclosed in <Subquestions> and </Subquestions> tags.
+
+<Question>
+In what school district is Governor John R. Rogers High School, named after John Rankin Rogers, located?
+</Question>
+
+<Subquestions>
+1.Where is Governor John R. Rogers High School geographically located?
+2.What is the name of the school district that includes Governor John R. Rogers High School?
+</Subquestions>
+
+<Question>
+Which Australian racing driver won the 44-lap race for the Red Bull Racing team?
+</Question>
+
+<Subquestions>
+1.Which 44-lap race was won by a driver for the Red Bull Racing team?
+2.Which Australian racing drivers are part of the Red Bull Racing team?
+3.Which Australian racing driver, as part of the Red Bull Racing team, won the 44-lap race?
+</Subquestions>

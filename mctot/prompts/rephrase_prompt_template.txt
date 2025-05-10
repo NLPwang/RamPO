@@ -1,0 +1,41 @@
+Given an input question, rephrase it into a more intuitive and easier-to-understand version. The original question is enclosed within <Original Question> </Original Question> tags, and the corresponding rephrased question is enclosed within <Rephrased Question> </Rephrased Question> tags.
+
+<Original Question>
+In what school district is Governor John R. Rogers High School, named after John Rankin Rogers, located?
+</Original Question>
+
+<Rephrased Question>
+What school district is Governor John R. Rogers High School in?
+</Rephrased Question>
+
+<Original Question>
+Which Australian racing driver won the 44-lap race for the Red Bull Racing team?
+</Original Question>
+
+<Rephrased Question>
+Who is the Australian racing driver that won a 44-lap race for the Red Bull Racing team?
+</Rephrased Question>
+
+<Original Question>
+What star of *Parks and Recreation* appeared in November?
+</Original Question>
+
+<Rephrased Question>
+Which actor from *Parks and Recreation* made an appearance in November?
+</Rephrased Question>
+
+<Original Question>
+Which genus of flowering plant is found in an environment further south, Crocosmia or Cimicifuga?
+</Original Question>
+
+<Rephrased Question>
+Between Crocosmia and Cimicifuga, which plant genus is typically found further south?
+</Rephrased Question>
+
+<Original Question>
+In what year did the man who shot the Chris Stockley, of The Dingoes, die?
+</Original Question>
+
+<Rephrased Question>
+What is the year of death for the man who shot Chris Stockley, of The Dingoes?
+</Rephrased Question>
