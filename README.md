@@ -23,21 +23,20 @@ python mctot/retrieve.py
 ### 2.Run phase 1: preference pair generation
 
 ```bash
-python run_mcts.py
+python mctot/run_mcts.py --task hotpotqa --output_file output/hotpotqa_preference_pairs.json --document_analyse --collect_strategy winner-loser
 ```
 
 ### 3.Run phase 2: Reasoning DPO training
 
 ```bash
-python dpo_training.py
+python dpo_training.py --dataset output/hotpotqa_preference_pairs.json --wandb_name RamPO_hotpot_checkpoint  --output_dir checkpoints/RamPO_hotpot_checkpoint
 ```
 
-After completing Phase 2, the final selected results will be recorded in the folder created by phase 1.
 
 ### 4.Run phase 3: Reasoning CoT inference
 
 ```bash
-python eval_src/rag_eval.py
+python mctot/run_mcts.py --task hotpotqa --base_model checkpoints/RamPO_hotpot_checkpoint/checkpoint-7480  --document_analyse --eval > logs/hotpotqa_checkpoints/RamPO_hotpot_checkpoint_checkpoint-7480.out
 ```
 
 ## 🚀 Citation
